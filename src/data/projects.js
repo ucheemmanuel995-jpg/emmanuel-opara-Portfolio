@@ -115,6 +115,7 @@ export const projects = [
     id: 'ai-marketing-copilot',
     title: 'AI Marketing Copilot',
     category: 'AI & Automation',
+    status: 'In Development',
     tags: ['AI & Automation'],
     summary:
       'An AI-powered marketing workflow that helps users generate campaign strategies, social media content, captions, and marketing assets.',
@@ -133,13 +134,14 @@ export const projects = [
       approach:
         'A React/Vite front end drives a FastAPI backend that calls the Gemini API for generation, with SQLite persisting campaigns and drafts through each stage.',
     },
-    github: "Upcoming",
-    demo: "Upcoming",
+    github: null,
+    demo: null,
   },
   {
     id: 'researchGen-ai',
     title: 'ResearchGenAI',
     category: 'Research',
+    status: 'In Development',
     tags: ['Research', 'Statistics', 'AI & Automation'],
     summary:
       'An AI-powered research and statistical report automation platform designed to assist with statistical analysis, modeling, and report generation.',

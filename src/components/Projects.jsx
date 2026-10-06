@@ -41,10 +41,15 @@ export default function Projects() {
               key={p.id}
               className="animate-rise border rule rounded-lg p-6 flex flex-col bg-paper dark:bg-void-raised"
             >
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex flex-wrap items-start justify-between gap-3">
                 <h3 className="font-display text-xl leading-snug">
                   {p.title}
                 </h3>
+                {p.status && (
+                  <span className="inline-block px-2 py-1 text-xs font-medium bg-signal text-white rounded-full">
+                    {p.status}
+                  </span>
+                )}
               </div>
 
               <p className="mt-3 text-sm text-ink-soft dark:text-paper/70 leading-relaxed">
