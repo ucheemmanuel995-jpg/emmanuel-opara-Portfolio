@@ -141,7 +141,6 @@ export const projects = [
     id: 'researchGen-ai',
     title: 'ResearchGenAI',
     category: 'Research',
-    status: 'In Development',
     tags: ['Research', 'Statistics', 'AI & Automation'],
     summary:
       'An AI-powered research and statistical report automation platform designed to assist with statistical analysis, modeling, and report generation.',
